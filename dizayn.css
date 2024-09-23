@@ -1,0 +1,208 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 270px;
+            height: 100px;
+            margin: auto;
+            margin-top: 10px;
+            
+        }
+
+        .draggable1, .draggable2, .draggable3, .draggable4, .draggable5, .draggable6, .draggable7, .draggable8, .draggable9,.draggable10
+         {
+            width: 60px;
+            height: 55px;
+            position: absolute;
+            border: 2px solid rgba(0, 255, 246, 1);
+            border-radius: 13px;
+            background-color: transparent;
+            cursor: move; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0px;
+        }
+
+        #menuView {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView2 {
+       top: 250px;
+left: 180px;
+        }
+
+        #menuView3 {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView4 {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView5 {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView6 {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView7 {
+            top: 250px;
+left: 180px;
+        }
+
+        #menuView8 {
+         top: 250px;
+left: 180px;
+        }
+
+        #menuView9 {
+            top: 250px;
+left: 180px;
+        }
+        #menuView10 {
+          top: 250px;
+          left: 180px;
+        }
+
+        .switch {
+            transform: scale(1);
+            border: 2.5px solid transparent;
+            border-radius: 16px;
+        }
+
+        input[type="checkbox"].switch {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 51px;
+            height: 31px;
+            background-color: transparent;
+            position: relative;
+            outline: none;
+            background-color:gray
+        }
+
+        input[type="checkbox"].switch:checked {
+            background-color: rgb(0, 255, 55);
+        }
+
+        input[type="checkbox"].switch::before {
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 27px;
+            height: 27px;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            transition: 0.2s;
+        }
+
+        input[type="checkbox"].switch:checked::before {
+            left: 20px;
+            
+        }
+        
+        #tsw {
+            color:rgba(255, 0, 0, 1);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        #tsw2 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        #tsw3 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        #tsw4 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+  #tsw5 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        #tsw6 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        #tsw7 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        #tsw8 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        #tsw9 {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        #tsw10 {
+          color: rgb(255, 0, 0);
+          font-family: 'Courier New', Courier, monospace;
+          font-weight: bold;
+          font-size: 11px;
+          margin-bottom: 5px;
+        }
+
+        #Me {
+            color: rgb(255, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 5px;
+            
+        }
+        #Me1 {
+            color: rgba(0, 255, 42, 1);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 5px;
+            
+        }
+
+
+    </style>
